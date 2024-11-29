@@ -1,0 +1,77 @@
+.containerCenter{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--gray-900);
+}
+
+.login{
+
+    margin-top: -190px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    flex-direction: column;
+
+    h1{
+
+        color: var(--white);
+        margin-top: 1rem;
+        margin-bottom: 15px;
+    }
+
+    form{
+
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form button{
+
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
+
+.text{
+
+    margin-top: 1rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.titulo{
+
+    color: var(--white);
+    font-size: 40px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+
+    .laranja{
+
+        color: var(--laranja-700);
+    }
+}
+
+//Responsividade
+
+@media (max-width: 620px){
+
+    .login{
+
+        margin-top: -170px;
+        width: 90%;
+    }
+
+    .titulo{
+
+        font-size: 25px;
+    }
+
+}
